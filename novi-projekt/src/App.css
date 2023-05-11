@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.naslov {
+  font-size: 50px;
+  margin-top: 70px;
+}
+.botun {
+  background-color: rgb(188, 184, 184);
+}
+.botunic {
+  background-color: rgb(188, 184, 184);
+  margin-bottom: 22px;
+  margin-top: 2px;
+}
+.greg {
+  margin-left: px;
+}
+.lokacija {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+.popis {
+  font-size: 30px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+}
+.onama {
+  font-size: 30px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+}
+.slike {
+  text-align: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+.greg {
+  width: 200px;
+}
